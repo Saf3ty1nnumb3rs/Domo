@@ -1,0 +1,142 @@
+.heart {
+    color : red;
+}
+html{
+	box-sizing:border-box
+    }
+    
+*,*:before,*:after{
+            box-sizing:inherit
+        }
+    
+    
+body {
+    text-align : center;
+    margin: 0;
+    background-color: #F6F7F8;
+}
+
+header {
+    background-color:#011627;
+    color: #B7EDF1;
+
+}
+
+a {
+    color: #B7EDF1;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+footer {
+    background-color:#FF3366;
+    color: #B7EDF1;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family:  "Droid Serif", serif;
+    height: 140px;
+}
+
+p {
+    font-family:  "Raleway", serif;
+	line-height:  26px;
+	font-size:  18px;
+	margin: 1rem auto;
+	max-width: 850px;
+}
+
+.portrait {
+    border-radius: 50%;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 30px 15px;
+    padding:0 5px;
+}
+.portrait, .feeder {
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.headPic, .headPic2 {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 10px 0;
+
+}
+.headPic2 {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.headGrid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 100px;
+}
+.headGrid > div {
+    justify-items: center;
+    align-items: center;
+}
+.headGrid > div:nth-child(1) {
+    grid-column:1;
+  } 
+.headGrid > div:nth-child(3) {
+    grid-column:3;
+  } 
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content:  " ";
+	clear:  both;
+	height: 0;
+	font-size: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+.flexy {
+    padding: 20px 10px;
+    font-size:  24px;
+    text-decoration: none;
+    align-self: center;
+    
+}
+
+.feeder {
+    height: 200px;
+    width: 200px;
+    border:3px solid #b62c2c;
+    border-radius: 30%;
+    margin: 20px auto;
+}
+
+.feedMeButton {
+    margin: 20px auto;
+    border-radius: 40%;
+    border: 2px solid #a1dbdf;
+    background-color: #a1dbdd;
+}
+
+.feedMeButton:focus {
+    outline: none;
+}
+#food, #foodRow2 {
+    display: flex;
+    justify-content: center;
+    margin: 2px 12px;
+    padding: 2px;
+    font-size: 60px;
+    
+}
+
+
+
+
